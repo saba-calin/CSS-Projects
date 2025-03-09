@@ -439,7 +439,7 @@ button {
 
 
 .footer {
-    background-color: #ead4d4;
+    background-color: #eeeeee;
     padding: 60px 100px 20px;
 }
 
@@ -463,6 +463,11 @@ button {
     color: #5d5d5d;
 }
 
+.footer__links {
+    display: flex;
+    gap: 60px;
+}
+
 .footer__column h4 {
     color: #121111;
     margin-bottom: 20px;
@@ -481,7 +486,16 @@ button {
 
 .footer__social {
     display: flex;
-    gap: 20px;
+    gap: 15px;
+}
+
+.footer__social a {
+    color: #5d5d5d;
+    font-size: 20px;
+}
+
+.footer__social a:hover {
+    color: #34c759;
 }
 
 .footer__bottom {
